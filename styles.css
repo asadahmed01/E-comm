@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Header section */
+#header{
+  background-image: url("../images/earphone1.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.container-fluid
+{
+  padding: 3% 15%;
+}
+.nav-link{
+  color: white;
+  padding: 0 15px;
+}
+.landing-text{
+  padding: 15% 150px;
+}
+.landing-text h1{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.landing-text p{
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+.span{
+  color: #37B3F6;
+}
+
+/* STATS SECTION */
+#title-stats{
+  background-color: #f6f6f6;
+  padding: 32px 0;
+  font-size: 27px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* VIDEO SECTION */
+
+#video{
+  padding: 32px 0;
+}
+.video-palyer{
+  width: 50%;
+  height: 400px;
+
+}
+.video-palyer h3{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.video-palyer h2{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/*FEATURES SECTION*/
+#features{
+  padding: 32px 10px;
+}
+.feature{
+  padding: 0 30px;
+}
+.feature i{
+  font-size: 50px;
+  padding: 20px 0;
+}
+.feature h2{
+  color: #37B3F6;
+}
+.feature p{
+  color: gray;
+}
+
+/*CTA */
+  #cta{
+    padding: 32px 0;
+    font-size: 22px;
+    
+  }
+  button{
+    padding: 10px 50px;
+    background-color: #37B3F6;
+    border-color: transparent;
+    border-radius: 20px;
+    color: white;
+  }
+  button:hover{
+    background-color: #075179;
+  }
+  /* process section */
+  #process{
+    padding: 32px 0;
+    background-color: #f6f6f6;
+  }
+  .upper-level{
+    border-bottom: 1px solid lightgray;
+  }
+
+  .upper-block:hover{
+    border-bottom: 2px solid #37B3F6;
+  }
+  .upper-level i{
+    padding: 40px 0;
+    font-size: 50px;
+  }
+  .lower-level{
+    padding: 64px 20px;
+    color: #c5c5c5;
+  }
+  
+
+  /* how-it-works */ 
+  #how-it-works{
+    padding: 50px 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .ear-bud{
+    width: 60%;
+  }
+  .how-description{
+    padding: 30px 80px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  /* values */ 
+  #values{
+    background-color: #f6f6f6;
+    padding: 32px 0 ;
+  }
+  .value{
+    margin-top: 64px;
+    padding: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .icon{
+    font-size: 64px;
+    padding: 20px;
+    color: #37B3F6;
+  }
+
+  /* carousel */
+  #order-revols{
+    padding: 32px 0;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: gray;
+    
+  }
+  .carousel-image{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 20px;
+  }
